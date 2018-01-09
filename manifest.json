@@ -1,0 +1,22 @@
+{
+	"manifest_version":2,
+	"name":"Save the Window",
+	"description" : "Saves The Current Running Window",
+	"version":"0.1",
+	
+	"permissions":
+	[
+		"activeTab",
+		"storage",
+		"tabs"
+	],
+	
+	"browser_action":
+	{
+		"default_title":"Storage",
+		"default_icon":"icon.png",
+		"default_popup":"popup.html"
+	}
+	
+
+}
