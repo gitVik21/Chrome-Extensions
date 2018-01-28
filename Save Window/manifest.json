@@ -3,8 +3,12 @@
 	"name":"Save the Window",
 	"description" : "Saves The Current Running Window",
 	"version":"0.1",
-	
-	"permissions":
+	"background": 
+	{
+    		"scripts": ["background.js"],
+    		"persistent": false
+  	},	
+  		"permissions":
 	[
 		"activeTab",
 		"storage",
